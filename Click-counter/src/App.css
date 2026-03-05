@@ -1,0 +1,38 @@
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.card{
+  width: 400px;
+  height:200px;
+  text-align:center;
+  background-color: #f5f5f5;
+  margin:10px;
+  padding:20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.687);
+  font-family: "Poppins";
+  border-radius: 10px;
+}
+
+
+.clickButton{
+  font-family: "Poppins";
+  height:25px;
+  width:180px;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.clickButton:hover{
+  background-color: #34fe60;
+}
+
+
+.card:hover{
+  width: 410px;
+  height:210px;
+  font-size: 18px;
+}
